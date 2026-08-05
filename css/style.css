@@ -380,11 +380,14 @@ button{
 
 .skills{
     background:#f8fafc;
-    padding:120px 10%;
+    padding:80px 10%;
 }
 
 .skill-category{
-    margin-bottom:60px;
+    margin-bottom:40px;
+}
+.skill-category:last-child{
+    margin-bottom:0;
 }
 
 .skill-category h3{
@@ -400,21 +403,42 @@ button{
 }
 .skill-card{
 
-    background:white;
+    background:#ffffff;
 
-    border-radius:12px;
+    border-radius:15px;
 
-    padding:25px;
+    padding:30px 20px;
 
     text-align:center;
 
     border:1px solid var(--border-color);
 
-    font-weight:600;
-
-    transition:var(--transition);
+    transition:0.3s ease;
 
 }
+
+.skill-card i{
+
+    font-size:42px;
+
+    color:var(--primary-color);
+
+    margin-bottom:18px;
+
+    display:block;
+
+}
+
+.skill-card h4{
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:var(--heading-color);
+
+}
+
 /* ==========================
    EXPERIENCE
 ========================== */
@@ -512,7 +536,15 @@ button{
 
     padding:40px;
 
-    transition:var(--transition);
+    transition:0.35s ease;
+
+}
+
+.project-card:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 15px 35px rgba(37,99,235,.15);
 
 }
 
@@ -549,17 +581,20 @@ button{
 
     background:#EEF4FF;
 
-    color:var(--primary-color);
+    color:#2563EB;
 
-    padding:8px 16px;
+    padding:10px 18px;
 
-    border-radius:30px;
+    border-radius:50px;
 
     font-size:14px;
 
     font-weight:600;
 
+    transition:.3s;
+
 }
+
 .project-features{
 
     margin-bottom:35px;
@@ -581,6 +616,20 @@ button{
     display:flex;
 
     gap:15px;
+
+    margin-top:30px;
+
+}
+
+.project-links .btn{
+
+    min-width:170px;
+
+}
+
+.project-links i{
+
+    margin-right:8px;
 
 }
 .contact{
@@ -650,24 +699,12 @@ footer p{
     margin:5px 0;
 
 }
-.hero{
-    padding:100px 10%;
-}
-
-.about{
-    padding:80px 10%;
-}
-
-.projects{
-    padding:90px 10%;
-}
-
-.contact{
-    padding:100px 10%;
+section{
+    padding:60px 10%;
 }
 section{
 
-    padding:90px 10%;
+    padding:60px 10%;
     max-width:1400px;
     margin:auto;
 
@@ -754,5 +791,88 @@ header{
 .education{
 
     background:#f8fafc;
+
+}
+.contact-card h3 i{
+    margin-right:10px;
+    color:var(--primary-color);
+}
+.project-content h3{
+
+    transition:.3s;
+
+}
+
+.project-card:hover h3{
+
+    color:#2563EB;
+
+}/* ==========================
+   BUTTON ANIMATIONS
+========================== */
+
+.btn{
+
+    transition:all .3s ease;
+
+}
+.btn:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(37,99,235,.25);
+
+}
+
+/* ==========================
+   NAVBAR
+========================== */
+
+.nav-links a{
+
+    position:relative;
+
+}
+
+.nav-links a::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:0;
+
+    bottom:-6px;
+
+    width:0;
+
+    height:2px;
+
+    background:#2563EB;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover::after{
+
+    width:100%;
+
+}
+.logo{
+
+    transition:.3s ease;
+
+}
+
+.logo:hover{
+
+    transform:scale(1.1);
+
+}
+
+.project-tech span{
+
+    transition:.3s;
 
 }
