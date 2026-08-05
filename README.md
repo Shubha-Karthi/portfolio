@@ -62,9 +62,9 @@ I'm currently focused on:
 - Student Management System
 
 ### 📬 Contact
-📧 Email: **YOUR EMAIL**
+📧 Email: karthikeyanshubhakaarini@gmail.com
 🔗 LinkedIn:
-https://linkedin.com/in/YOUR-LINKEDIN
+https://linkedin.com/in/shubhakarini-karthikeyan-795606268
 💻 GitHub:
 https://github.com/Shubha-Karthi
 🌐 Portfolio:
